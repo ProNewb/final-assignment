@@ -1,0 +1,15 @@
+C:\Users\bobwa\source\repos\acard\acard\bin\Debug\net6.0\acard.exe
+C:\Users\bobwa\source\repos\acard\acard\bin\Debug\net6.0\acard.deps.json
+C:\Users\bobwa\source\repos\acard\acard\bin\Debug\net6.0\acard.runtimeconfig.json
+C:\Users\bobwa\source\repos\acard\acard\bin\Debug\net6.0\acard.dll
+C:\Users\bobwa\source\repos\acard\acard\bin\Debug\net6.0\acard.pdb
+C:\Users\bobwa\source\repos\acard\acard\obj\Debug\net6.0\acard.csproj.AssemblyReference.cache
+C:\Users\bobwa\source\repos\acard\acard\obj\Debug\net6.0\acard.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bobwa\source\repos\acard\acard\obj\Debug\net6.0\acard.AssemblyInfoInputs.cache
+C:\Users\bobwa\source\repos\acard\acard\obj\Debug\net6.0\acard.AssemblyInfo.cs
+C:\Users\bobwa\source\repos\acard\acard\obj\Debug\net6.0\acard.csproj.CoreCompileInputs.cache
+C:\Users\bobwa\source\repos\acard\acard\obj\Debug\net6.0\acard.dll
+C:\Users\bobwa\source\repos\acard\acard\obj\Debug\net6.0\refint\acard.dll
+C:\Users\bobwa\source\repos\acard\acard\obj\Debug\net6.0\acard.pdb
+C:\Users\bobwa\source\repos\acard\acard\obj\Debug\net6.0\acard.genruntimeconfig.cache
+C:\Users\bobwa\source\repos\acard\acard\obj\Debug\net6.0\ref\acard.dll
