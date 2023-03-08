@@ -19,7 +19,7 @@ namespace CMP1903M_A01_2223
         //main constructor
         public Card(int value, int suit)
         {
-            this.value = value + 1;
+            this.value = value + 1;// value would start at 0 but now starts at 1
             this.suit = suit;
 
             faceVal = value.ToString();
@@ -27,7 +27,7 @@ namespace CMP1903M_A01_2223
 
             //Non numerical cards and suit settings
             if (suit == 0)
-            { faceSuit = "Hearts"; }
+            { faceSuit = "Hearts"; }//changing suit to its corresponding suit
 
             if (suit == 1)
             { faceSuit = "Spades"; }
@@ -43,7 +43,7 @@ namespace CMP1903M_A01_2223
 
 
             
-            switch (faceVal)
+            switch (faceVal)//swithching face cards(non int) to their corresponding face values
             
             {
                 case "14":

@@ -11,7 +11,7 @@ namespace CMP1903M_A01_2223
     {//main constructor
         public TestClass()
         {
-            //Card Object
+            //Card Object inheriting from the card class becoming a new instance or object
             Card testCard = new Card(2, 1);
             // works as programmed
             Console.WriteLine("$Test to check a card object has been properly created\n\n" + "Int representing the suit {1}" + "   " + "The int representing value {2}" + "   " + "and finally its face values {3}" + "\n", "\n", testCard.suit, testCard.value, testCard.aface);
@@ -41,9 +41,9 @@ namespace CMP1903M_A01_2223
             {
                 //user input for shuffle type
                 Console.WriteLine("Please enter yor preffered shuffle;\n The choices are as follows:\n enter 1 for a Fisher shuffle, 2 for Riffle and 3 for no shuffle");
-                int shuffleType = Convert.ToInt32(Console.ReadLine());
+                int shuffleType = Convert.ToInt32(Console.ReadLine());//User input as string converted directly to int32
 
-                Pack.ShuffleCardPack(shuffleType, testPack);
+                Pack.ShuffleCardPack(shuffleType, testPack);//multi arg  input
 
 
 
@@ -57,7 +57,18 @@ namespace CMP1903M_A01_2223
                 Pack.Deal(testPack);
                 Console.WriteLine("\n\n");
                 Console.WriteLine("Test of multi card deal\n");
-                Pack.DealCard(7, testPack);
+                Pack.DealCard(7, testPack);//i decided to deal 7 cards as this is a common amount
+
+                //I then decided to use user input to deal a requested number of cards to cover
+                //all bases for this project
+
+               // int numOfCards = Convert.ToInt32(Console.ReadLine());
+
+               // Pack.DealCard(numOfCards, testPack);
+
+
+                Console.WriteLine("\n\nTest player choice of hand size\n\n");
+                Pack.DealHand(testPack);//dealhand method
 
             }
             //code that is ran during the event of error handling
@@ -65,8 +76,11 @@ namespace CMP1903M_A01_2223
             {
                 Console.WriteLine(e.Message);
                 Console.WriteLine("Goodbye");
-                Environment.Exit(1);
+                TestClass test = new TestClass();//Due to code review suggestion loop to start instead of exit
+                //Environment.Exit(1);
             }
+        
+            
         }
     }
 }
